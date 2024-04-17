@@ -32,3 +32,34 @@ body {
     /* color:rgb(128, 128, 128) */
   }
 }
+
+
+
+body main{
+  /* background:red; */
+}
+
+main aside{
+  border-radius: 15px 0 0 15px;
+}
+
+body main main{
+  /* border-radius: 0 10px 10px 0; */
+  border-radius: 10px;
+}
+
+
+#mainDiv::-webkit-scrollbar-thumb{
+  width: 12px;
+  background:gray;
+  border-radius: 0 15px 15px 0;
+} 
+
+#mainDiv::-webkit-scrollbar{
+  width: 12px;
+  background:#1D1D1D;
+  height: 500px !important;
+  border-radius: 0 15px 15px 0;
+}
+
+  /* background:#1D1D1D; */
